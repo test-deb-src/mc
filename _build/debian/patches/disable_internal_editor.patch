@@ -8,7 +8,7 @@ Description: Disable internal editor by default
 
 --- a/src/setup.c
 +++ b/src/setup.c
-@@ -180,9 +180,9 @@
+@@ -178,9 +178,9 @@
  
  /* If true use the internal viewer */
  gboolean use_internal_view = TRUE;

@@ -21,18 +21,3 @@ Description: Use mailcap viewer instead of various hardcoded viewers
              dvisvga "${MC_EXT_FILENAME}" || \
                  dvi2tty "${MC_EXT_FILENAME}" | ${PAGER:-more}
          fi
---- a/misc/ext.d/video.sh
-+++ b/misc/ext.d/video.sh
-@@ -28,10 +28,10 @@
- do_open_action() {
-     filetype=$1
- 
-     case "${filetype}" in
--    ram)
--        (realplay "${MC_EXT_FILENAME}" >/dev/null 2>&1 &)
-+    ram|rm)
-+        (see "${MC_EXT_FILENAME}" >/dev/null 2>&1 &)
-         ;;
-     *)
-         if [ -n "$DISPLAY" ]; then
-             (mplayer "${MC_EXT_FILENAME}" >/dev/null 2>&1 &)

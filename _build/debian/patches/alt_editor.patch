@@ -14,7 +14,7 @@ Description: Detect that mc was launched from alternatives symlink
 
 --- a/src/args.c
 +++ b/src/args.c
-@@ -639,9 +639,9 @@
+@@ -636,9 +636,9 @@
      const char *base;
  
      base = x_basename (argv[0]);

@@ -6,7 +6,7 @@ Description: enable "Group undo" by default (mcedit)
 
 --- a/src/editor/edit.c
 +++ b/src/editor/edit.c
-@@ -92,9 +92,9 @@
+@@ -96,9 +96,9 @@
  gboolean option_state_full_filename = TRUE;
  
  gboolean enable_show_tabs_tws = TRUE;

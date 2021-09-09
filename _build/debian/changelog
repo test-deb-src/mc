@@ -1,9 +1,33 @@
-mc (3:4.8.24-100) unstable; urgency=medium
+mc (3:4.8.27-1) unstable; urgency=medium
 
-  * UPD: Package Store.
-  * UPD: Debian scripts.
+  * New upstream release.
+    + CVE-2021-36370: sftpfs/vfs server fingerprint isn't verified.
+      (Closes: #993404).
+    + cannot view rar archives with unrar version 6 (Closes: #985972).
+  * Standards-Version: 4.6.0.
 
- -- Package Store <pkgstore@pm.me>  Thu, 27 Feb 2020 12:00:00 +0300
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 03 Sep 2021 03:35:15 +1000
+
+mc (3:4.8.26-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix PKZIP archive handling, patch backported from upstream
+
+ -- Thorsten Glaser <tg@mirbsd.de>  Tue, 01 Jun 2021 15:26:23 +0200
+
+mc (3:4.8.26-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Suggests += "unar, wimtools".
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 01 Feb 2021 12:44:43 +1100
+
+mc (3:4.8.25-1) unstable; urgency=low
+
+  * New upstream release.
+  * Recommends += "sensible-utils".
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 02 Oct 2020 18:04:08 +1000
 
 mc (3:4.8.24-2) unstable; urgency=medium
 

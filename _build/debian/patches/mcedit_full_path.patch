@@ -8,7 +8,7 @@ Description: 'mcedit' status line to show full path to file, like in 'mcview'.
 
 --- a/doc/man/mcedit.1.in
 +++ b/doc/man/mcedit.1.in
-@@ -600,9 +600,9 @@
+@@ -604,9 +604,9 @@
  will be untouched. Default value is
  "\fB-\fR\fB+\fR\fB*\fR\fB\\\fR\fB,\fR\fB.\fR\fB;\fR\fB:\fR\fB&\fR\fB>\fR".
  .TP
@@ -21,7 +21,7 @@ Description: 'mcedit' status line to show full path to file, like in 'mcview'.
  binary files, you should set
 --- a/src/editor/edit.c
 +++ b/src/editor/edit.c
-@@ -88,9 +88,9 @@
+@@ -92,9 +92,9 @@
  gboolean option_cursor_beyond_eol = FALSE;
  gboolean option_line_state = FALSE;
  int option_line_state_width = 0;

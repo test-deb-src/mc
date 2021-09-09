@@ -1,14 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Midnight Commander
 Source: http://www.midnight-commander.org/downloads
-Copyright: 1996-2019 Free Software Foundation
+Copyright: 1996-2021 Free Software Foundation
 License: GPL-3+
 Comment:
  This package was debianized on Tue Apr 1 14:32:15 1997 by
  Paul Seelig <pseelig@mail.uni-mainz.de>.
 
 Files: *
-Copyright: 1991-1992,1994-2019 Free Software Foundation
+Copyright: 1991-1992,1994-2021 Free Software Foundation
     1996      andrey joukov <2:5020/337.13@fidonet.org>
     2002      ARJ Software Russia
     2003      Alexander Serkov <serkov@ukrpost.net>
@@ -59,7 +59,7 @@ Copyright:
     2011       Andreas Tille <tille@debian.org>
     2002       Colin Watson <cjwatson@debian.org>
     2008-2015  Denis Briand <debian@denis-briand.fr>
-    2012-2020  Dmitry Smirnov <onlyjob@debian.org>
+    2012-2021  Dmitry Smirnov <onlyjob@debian.org>
     1997       Fernando Alegre <alegre@debian.org>
     2004-2007  Ludovic Drolez <ldrolez@debian.org>
     1999-2001  Martin Bialasinski <martinb@debian.org>
