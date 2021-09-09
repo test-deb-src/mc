@@ -1,0 +1,17 @@
+name: "Build: DEB"
+
+on:
+  - push
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    name: "Build"
+    steps:
+      - uses: pkgstore/github-action-build-deb@main
+        with:
+          repo_src: "https://github.com/${{ github.repository }}.git"
+          repo_dst: "${{ secrets.STORE_DEB }}"
+          user: "${{ secrets.BUILD_USER_NAME }}"
+          email: "${{ secrets.BUILD_USER_EMAIL }}"
+          token: "${{ secrets.BUILD_USER_TOKEN }}"
